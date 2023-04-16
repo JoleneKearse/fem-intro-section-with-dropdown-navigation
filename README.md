@@ -59,18 +59,18 @@ And here are my error messages in desktop:
 
 ### Links 🖇️
 
-- [Github](https://github.com/JoleneKearse/fem-age-calculator-app)
-- [Live Site URL](https://fem-age-calculator-app.vercel.app/)
+- [Github](https://github.com/JoleneKearse/fem-intro-section-with-dropdown-navigation)
+- [Live Site URL]()
 
 ## My process 👩‍💻
 
 ### Built with ⚒️
 
 - Semantic HTML5 markup
-- `@font-face`
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+- JavaScript modals
 
 ### What I learned 📔
 
@@ -86,7 +86,9 @@ I've tried using the `<picture>` tag and `srcset` before, but to no avail. I sta
 ```
 I tried an empty `<img src="" alt="">`, which worked, but I knew wasn't right.
 
-Finally, I decided to change up the order of my sources and 'Wahoo, everything worked!'
+Finally, I decided to change up the **order** of my sources and '_Wahoo, everything worked!_'
+
+**Note to self**: When using `min-width`, go **biggest to smallest**, or desktop to mobile.
 
 ![picture tag with desktop and mobile sources, then img tag as a fallback](screenshots/picture-srcset.png)
 
