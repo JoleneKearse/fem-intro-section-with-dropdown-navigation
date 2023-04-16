@@ -102,8 +102,8 @@ This took me quite a long time, so I will continue to work on **Vanilla JavaScri
 
 ### Useful resources 🗒️
 
-- [Loading a Self-Hosted Font with `@font-face`](https://www.digitalocean.com/community/tutorials/how-to-load-and-use-custom-fonts-with-css#loading-a-self-hosted-font-with-font-face) - This showed me how to use provided fonts via CSS and how to avoid _faux_ rendering.
-- [How to Write Good Commit Messages: A Practical Git Guide](https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/) - This article has a simple listing of commit types. I found it useful to remind me of **style** as I had been using '**feat**' for just about everything, even though that hadn't made sense to me. 🤣
+- [Font-size Clamp Generator](https://clamp.font-size.app/?config=eyJyb290IjoiMTYiLCJtaW5XaWR0aCI6IjM3NXB4IiwibWF4V2lkdGgiOiIxNDQwcHgiLCJtaW5Gb250U2l6ZSI6IjE2cHgiLCJtYXhGb250U2l6ZSI6IjE4cHgifQ%3D%3D) - This is my go-to for generating responsize font sizes.
+- [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture) - This article tells you all about the `<picture>` tag.
 
 
 ## Author 🙃
