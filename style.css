@@ -29,11 +29,12 @@ p,
 ul,
 li,
 nav,
-button {
+button,
+a {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  /* font-size: 100%; */
   font: inherit;
   vertical-align: baseline;
 }
@@ -59,12 +60,34 @@ body {
 
 
 /* ---------- LAYOUT ----------*/
-
+.container {
+  margin-inline: auto;
+  width: 90%;
+}
 
 
 
 /* ---------- COMPONENTS ----------*/
+/* .cta-btn {
+  color: var(--clr-neutral-100);
+  background-color: var(--clr-neutral-800);
+} */
 
+.client-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.25em;
+}
+
+.client-list li {
+  list-style: none;
+}
+
+.client-list li img{
+  max-width: 5em;
+  max-height: 1.6em;
+}
 
 
 
