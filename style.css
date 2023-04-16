@@ -1,8 +1,8 @@
-/*  CUSTOM PROPERTIES */
+/* ---------- CUSTOM PROPERTIES ----------*/
 :root {
   --clr-neutral-100: #FFFFFF;
   --clr-neutral-200: #FAFAFA;
-  --clr-neutral-200: #ADADAD;
+  --clr-neutral-300: #ADADAD;
   --clr-neutral-400: #686868;
   --clr-neutral-800: #151515;
   --clr-accent-blue: #726CEE;
@@ -10,3 +10,62 @@
   --clr-accent-yellow: #EDD556;
   --clr-accent-purple: #8E4CB6;
 }
+
+/* ---------- RESET ----------*/
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+h1,
+p,
+ul,
+li,
+nav,
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  font-family: 'Epilogue', sans-serif;
+  font-size: clamp(1rem, 0.956rem + 0.1878vw, 1.125rem);
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.6;
+  color: var(--clr-neutral-400);
+  background-color: var(--clr-neutral-100);
+}
+
+/* ---------- TYPOGRAPHY ----------*/
+
+
+
+
+/* ---------- LAYOUT ----------*/
+
+
+
+
+/* ---------- COMPONENTS ----------*/
+
+
+
+
+/* ---------- MEDIA QUERIES ----------*/
